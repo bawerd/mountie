@@ -64,7 +64,7 @@ function handler (ports, opts, req, bounce) {
     req.on('error', function () { req.socket.destroy() });
     req.socket.on('error', function () { req.socket.destroy() });
     
-    var ps = ports.query(opts.prefix + '.' + host);
+    var ps = ports.query(opts.prefix + '.' + host) || [];
     var mounts = ps.filter(function (p) {
         if (typeof p.mount !== 'string') return false;
         

@@ -1,6 +1,6 @@
 {
     "name" : "mountie",
-    "version" : "0.0.0",
+    "version" : "0.0.1",
     "description" : "compose web servers behind host headers and mount paths",
     "main" : "index.js",
     "bin" : {},
