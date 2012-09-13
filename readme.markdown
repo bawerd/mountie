@@ -6,7 +6,7 @@ and [bouncy](https://github.com/substack/bouncy).
 
 [![build status](https://secure.travis-ci.org/substack/mountie.png)](http://travis-ci.org/substack/mountie)
 
-[mountie equation](http://substack.net/images/mountie_equation.png)
+![mountie equation](http://substack.net/images/mountie_equation.png)
 
 # example
 
@@ -136,4 +136,4 @@ npm install mountie
 
 MIT
 
-[mountie on a loyal steed](http://substack.net/images/mountie.png)
+![mountie on a loyal steed](http://substack.net/images/mountie.png)
